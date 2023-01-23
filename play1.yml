@@ -1,0 +1,4 @@
+---
+- hosts: "{{ hosts }}"
+  tasks:
+  - azure.azcollection.azure_rm_account_info:
